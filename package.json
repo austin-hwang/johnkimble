@@ -1,0 +1,28 @@
+{
+  "name": "johnkimble",
+  "version": "1.0.0",
+  "description": "Tool to answer class questions.",
+  "main": "johnkimble.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "cookies": "^0.7.3",
+    "depd": "^2.0.0",
+    "keygrip": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austin-hwang/johnkimble.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austin-hwang/johnkimble/issues"
+  },
+  "homepage": "https://github.com/austin-hwang/johnkimble#readme"
+}

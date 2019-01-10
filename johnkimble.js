@@ -13,7 +13,7 @@ function extend(dst, src) {
 }
 
 var server_config = {
-    port: 6169,
+    port: 5000,
     access_log: "access.log",
     error_log: "error.log",
     access_log_query: true,

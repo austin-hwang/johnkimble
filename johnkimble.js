@@ -1196,7 +1196,7 @@ function server(req, res) {
             process.exit(1);
         }
     });
-    s.listen(server_config.port, function () {
+    s.listen(process.env.PORT || server_config.port, function () {
         var now = get_now(), access_log_sep = "", stats, server_path;
         if (server_config.opened_access_log
             && (stats = fs.statSync(server_config.access_log))
